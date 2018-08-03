@@ -1,0 +1,194 @@
+@media print {
+    @page {
+        margin-top: 80px;
+    }
+
+    body {
+        padding: 0 30px;
+        margin: 0;
+    }
+
+
+
+    .tm-banner {
+        height: 180px;
+        padding: inherit;
+
+    }
+
+    .pad {
+        padding: 0 0 0 30px;
+    }
+
+    .tm-sidebar,#about,section:not(:first-of-type) {
+        display: none;
+    }
+
+    h2.tm-section-title {
+        color: blue;
+    }
+
+
+    h2.tm-section-title {
+        color: blue;
+    }
+
+    .flex-2-col {
+        display: block;
+    }
+
+    .tm-team-description-container {
+        max-width: inherit;
+    }
+
+    .flex-item:last-child {
+        text-align: center;
+    }
+
+    .tm-main-content {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+    @media screen {
+        /*2*/
+        .thumbnail {
+            border-radius: 50%;
+        }
+        .tm-section-title-box{
+            background: white;
+        }
+        .tm-section-title-box:hover {
+            background-color: #4D60EE;
+            font-weight: bold;
+            font-size: 30px;
+            color: antiquewhite;
+            cursor: pointer;
+        }
+        /*3*/
+        p:first-letter {
+            color: #76cdd7;
+            font-size: 30px;
+        }
+        /*4*/
+        .tm-main-nav,
+        .tm-content-box {
+            box-shadow: 0 0 15px #191A1E;
+        }
+
+        .tm-content-box {
+            position: relative;
+        }
+        /* 5 */
+        .tm-content-box {
+            position: relative;
+        }
+        .tm-content-box::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            border-top: 26px solid #2aabd2;
+            border-right: 130px solid transparent;
+            z-index: 1;
+        }
+        .tm-content-box.flex-2-col:nth-child(2)::after {
+            display: none;
+        }
+
+
+        /* 6 */
+        .carousel-item .tm-section-title {
+            color: gainsboro;
+            letter-spacing: 5px;
+        }
+
+        /* 7 */
+        h2 + p {
+            font-style: italic;
+        }
+        
+        /* 8 */
+        p {
+        text-indent: 10px;
+        line-height: 1.5;
+        }
+        
+        /* 9 */
+        
+        .heading .pad h2{
+            color: aqua;
+            text-align: center;
+        }
+        
+        .heading .pad ol a {
+            color: black;
+        }
+
+        .heading .pad ol a:visited {
+            color: silver;
+        }
+
+        .heading .pad ol a:hover {
+            color: #4D60EE;
+            text-decoration: underline double;
+        }
+
+        .heading .pad ol a.text::after {
+            content: "New";
+            color: red;
+            font-size: 10px;
+            vertical-align: super;
+        }
+        
+        /* 10 */
+        .boxes.gallery-container .box:nth-child(2n+1) {
+            background-color: lightgray;
+        }
+
+        .boxes.gallery-container .box:nth-child(2n) {
+            background-color: white;
+        }
+
+        .boxes.gallery-container .box p:first-letter {
+            color: black;
+        }
+        .boxes.gallery-container div h2 {
+            font-size: 45px;
+            border-bottom: 40px;
+        }
+
+        .boxes.gallery-container .box p {
+            font-size: 20px;
+            line-height: 1.5em;
+            text-indent: 0;
+            color: black;
+        }
+        
+        /* 11 */
+        .tm-nav-item:not(:last-child) {
+            border-bottom: silver 3px dotted;
+        }
+
+        .contact-form input,.contact-form button {
+            color: red;
+        }
+
+        .mandatory-field::after {
+            content: "*";
+            color: red;
+            font-weight: bold;
+        }
+}
+
+
+
+
+
+   
+    
