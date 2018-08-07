@@ -22,8 +22,8 @@ header {
     justify-content: space-around;
     flex: 1 0 auto;
     height: 45px;
-    border-top: 1px solid #e8eaeb;
-    border-bottom: 1px solid #e8eaeb;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-left: 20px; }
@@ -68,7 +68,7 @@ header {
     .post-list article div {
       padding: 5px; }
       .post-list article div h3 {
-        color: #fc572d;
+        color: #617e8b;
         text-transform: uppercase; }
       .post-list article div p {
         color: black;
@@ -120,5 +120,3 @@ footer {
   footer span {
     color: black;
     font-size: 10px; }
-
-/*# sourceMappingURL=style2.css.map */

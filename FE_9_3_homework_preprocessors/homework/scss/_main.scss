@@ -6,7 +6,7 @@
 
 body {
     box-sizing: border-box;
-    background: $LightGrayColor;
+    background: $BodyBG;
 }
 
 .main-wrapper {
@@ -27,14 +27,14 @@ header {
         justify-content: space-around;
         flex: 1 0 auto;
         height: 45px;
-        border-top: 1px solid #e8eaeb;
-        border-bottom: 1px solid #e8eaeb;
+        border-top: 1px solid $Border;
+        border-bottom: 1px solid $Border;
         text-transform: uppercase;
         margin-bottom: 10px;
         margin-left: 20px;
         a {
             text-decoration: none;
-            color: $RedColor;
+            color: $NavColor;
 
             &:hover {
                 color: blue;
@@ -50,13 +50,13 @@ header {
     input {
         width: 150px;
         height: 25px;
-        border: 1px solid $RedColor;
+        border: 1px solid $NavColor;
         border-top: 1px solid transparent;
-        background: $LightGrayColor;
+        background: $BodyBG;
 
         &::placeholder {
             padding-left: 20px;
-            color: $RedColor;
+            color: $NavColor;
         }
     }
 }
@@ -72,7 +72,7 @@ header {
     article {
         flex: 0 48%;
         margin-bottom: 20px;
-        background-color: white;
+        background-color: $articleBG;
         padding: 5px;
 
         .post-description {
@@ -91,7 +91,7 @@ header {
             padding: 5px;
 
             h3 {
-                color: $RedColor;
+                color: $H3Color;
                 text-transform: uppercase;
             }
 
@@ -106,7 +106,7 @@ header {
 
 .about {
     h1 {
-        color: $RedColor;
+        color: $NavColor;
         text-transform: uppercase;
         text-align: right;
         margin-top: 60px;
@@ -130,7 +130,7 @@ header {
     text-align: right;
 
     h1,h4 {
-        color: $RedColor;
+        color: $NavColor;
     }
 
     h4 {
@@ -144,7 +144,7 @@ header {
             padding: 10px 20px;
             border: 1px solid $formColor;
             width: 95%;
-            background: $LightGrayColor;
+            background: $BodyBG;
 
             &::placeholder {
                 color: $formColor;
@@ -152,7 +152,7 @@ header {
         }
 
         input[type=submit] {
-            background-color: $RedColor;
+            background-color: $NavColor;
             color: white;
             width: 210px;
             height: 45px;
