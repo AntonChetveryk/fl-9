@@ -1,0 +1,268 @@
+@font-face {
+	font-family: "Open Sans Regular";
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+a:hover {
+	color: chartreuse;
+}
+
+/*HEADER*/
+
+.container {
+	margin: 0 auto;
+	padding: 0 50px;
+	max-width: 1200px;
+
+}
+
+.header {
+	height: 740px;
+	background: #f3f3f3 url("../img/apples.jpg") center center no-repeat;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.logo {
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.headNavigation {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headNavigationItem {
+	margin-left: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.BlackandWhite {
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.BlackandWhiteHeader {
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+.BlackandWhiteHeader span {
+	font-size: 90px;
+}
+
+.BlackandWhiteParagraph {
+	font-size: 12px
+}
+
+.showMoreButton {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.showMore {
+	background-color: rgba(0, 0, 0, .4);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid white;
+	padding: 15px 80px;
+	width: 250px;
+}
+
+/*MAIN*/
+
+.about {
+	height: 320px;
+	display: flex;
+	align-items: center;
+}
+
+.aboutBox {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.aboutItem2 {
+	font-size: 10px;
+	margin-left: 80px;
+}
+
+/*Articles*/
+
+.articlesSection {
+	background: #f3f3f3;
+	padding-bottom: 60px;
+}
+
+.articlesHeader {
+	padding-top: 180px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+
+.article {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.article:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.articleImg {
+    position: relative;
+    width: 60%;
+}
+
+.articleFrance , .articleAmerica {
+    font-size: 15px;
+	font-weight: normal;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    color: white;
+}
+
+.articleLike {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: block;
+    position: absolute;
+	bottom: 250px;
+	left: 630px
+}
+.articleLike:hover{
+	cursor: pointer;
+}
+
+.articleText {
+    text-align: center;
+    align-self: center;
+    width: 35%;
+	margin-left: 10px;
+}
+.subscription {
+    margin: 50px 0;
+    padding: 50px 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscriptionForm{
+    display: flex;
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+.subscriptionEmail{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #343638;
+    flex-grow: 1;
+}
+
+.subscriptionButton{
+    padding: 20px 20px;
+    color: white;
+    background-color: #343638;
+    border: none;
+}
+.subscriptionButton:hover{
+	cursor: pointer;
+	color: darkgray;
+}
+
+
+
+               /*FOOTER*/
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footerHeaderItem{
+	margin-bottom: 25px;
+}
+.footerBlackAndWhite, .footerContact, .footerLastTweet{
+	padding-right: 20px;
+	width: 20%;
+}
+.footerLastTweet blockquote{
+	font-style: italic;
+}
+.footerNewsletter{
+	padding-left: 80px;
+}
+.footItem{
+	color: dimgrey;
+}
+.footItem h4{
+	color: black;
+}
+.footItem a{
+	color: dimgray;
+}
+.footItem a:hover{
+	color: chartreuse;
+}
+.footerNewsletterSubmit{
+    padding: 5px 5px;
+    color: white;
+    background-color: #343638;
+    border: none;
+}
+.footerNewsletterEmail{
+	padding: 5px 0 5px 5px;
+    background-color: white;
+    border: 1px solid #343638;
+}
+.footerFooter{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.footer2015{
+	display: block;
+	color: #9E9E9E;
+}
+hr{
+	color: silver;
+}
+.footerNavigation{
+	list-style-type: none;
+	display: block;
+	display: flex;
+}
+.footerNavigationItem {
+	margin-left: 10px;
+	color: black;
+	text-decoration: none;
+}
